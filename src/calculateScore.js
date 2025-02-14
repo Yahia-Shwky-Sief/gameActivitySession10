@@ -1,5 +1,4 @@
 export function calculateScore() {
-
     return new Promise((resolve) => {
         console.log("Calculating score...");
         setTimeout(() => {
@@ -8,4 +7,3 @@ export function calculateScore() {
         }, 1000);
     });
 }
-calculateScore().then(() => console.log("Test complete: calculateScore"));
