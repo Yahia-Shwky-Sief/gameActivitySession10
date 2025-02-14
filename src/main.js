@@ -1,7 +1,7 @@
 //integrate all functions here
-import { init_game } from "./init_game.js";
-import { playerMovement } from "./player_movement.js";
-import { calculateScore } from "./calculate_score.js";
+import { init_game } from "./init_game.module.js";
+import { playerMovement } from "./playerMovement.module.js";
+import { calculateScore } from "./calculateScore.module.js";
 
 init_game().then(() => {
   playerMovement().then(() => {
