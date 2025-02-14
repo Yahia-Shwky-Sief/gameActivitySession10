@@ -1,5 +1,8 @@
 export function init_game() {
-    setTimeout(() => {
-        console.log('Game initialized');
-    }, 1000);
+    return new Promise((resolve) => {
+        setTimeout(() => {
+          console.log("The game is initialized");
+          resolve();
+        }, 1000);
+      });
 }

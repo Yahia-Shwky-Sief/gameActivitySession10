@@ -7,4 +7,4 @@ export function playerMovement() {
     });
   }
   
-  playerMovement().then(() => console.log("Movment task completed"));
+  
